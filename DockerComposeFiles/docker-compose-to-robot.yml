@@ -1,0 +1,132 @@
+services:
+
+  taskassignment:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/task_assignment
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/taskassignment:${IMAGE_TAG:-local}
+    container_name: taskassignment
+    environment:
+      ENV_IN_DOCKER: "True"
+      TASK_ASSIGNMENT_STRATEGY: ${TASK_ASSIGNMENT_STRATEGY}
+      USE_IMPROVEMENT: ${USE_IMPROVEMENT}
+    restart: always
+    ports:
+      - '3000:3000'
+    networks:
+      - flextools
+
+  systemstatemanagement:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/system_state_management
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/systemstatemanagement:${IMAGE_TAG:-local}
+    container_name: systemstatemanagement
+    environment:
+      ENV_IN_DOCKER: "True"
+      STATE_FILE: ${SYSTEM_STATE_FILE}
+      STORAGE_LOCATION_TRACKING: ${STORAGE_LOCATION_TRACKING}
+      SIMULATION_ACTIVE: ${SIMULATION_ACTIVE}
+    restart: always
+    ports:
+      - '3001:3001'
+    networks:
+      - flextools
+
+  ordermanagement:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/order_management
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/ordermanagement:${IMAGE_TAG:-local}
+    container_name: ordermanagement
+    environment:
+      ENV_IN_DOCKER: "True"
+      STORAGE_LOCATION_TRACKING: ${STORAGE_LOCATION_TRACKING}
+    restart: always
+    ports:
+      - '3002:3002'
+    networks:
+      - flextools
+
+  amrcommunication:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/amr_communication
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/amrcommunication:${IMAGE_TAG:-local}
+    container_name: amrcommunication
+    environment:
+      ENV_IN_DOCKER: "True"
+      STORAGE_LOCATION_TRACKING: ${STORAGE_LOCATION_TRACKING}
+      AMR_SIMULATION_ACTIVE: ${SIMULATION_ACTIVE}
+      USE_MQTT: ${USE_MQTT}
+    restart: always
+    ports:
+      - '3003:3003'
+    networks:
+      - flextools
+
+  basedatamanagement:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/base_data_management
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/basedatamanagement:${IMAGE_TAG:-local}
+    container_name: basedatamanagement
+    environment:
+      ENV_IN_DOCKER: "True"
+      BASE_DATA_FILE: ${BASE_DATA_FILE}
+    restart: always
+    ports:
+      - '3005:3005'
+    networks:
+      - flextools
+
+  pathplanning:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/path_planning_service
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/pathplanning:${IMAGE_TAG:-local}
+    container_name: pathplanning
+    environment:
+      ENV_IN_DOCKER: "True"
+      LIF_FILE: ${LIF_FILE}
+      PATH_PLANNING_STRATEGY: ${PATH_PLANNING_STRATEGY}
+    restart: always
+    ports:
+      - '3006:3006'
+    networks:
+      - flextools
+
+  userinterface:
+    build:
+      context: ../FleetManagementEvaluationFramework/ScenarioEvaluationService/user_interface
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/userinterface:${IMAGE_TAG:-local}
+    container_name: userinterface
+    environment:
+      ENV_IN_DOCKER: "True"
+      STORAGE_LOCATION_TRACKING: ${STORAGE_LOCATION_TRACKING}
+      AMR_SIMULATION_ACTIVE: ${SIMULATION_ACTIVE}
+    restart: always
+    ports:
+      - '3010:3010'
+    networks:
+      - flextools
+
+  mqttbroker:
+    image: eclipse-mosquitto:2
+    restart: always
+    volumes:
+      - ./mqtt_config/:/mosquitto/config/:ro
+      - ./mqtt_log/:/mosquitto/log/
+      - ./mqtt_data:/mosquitto/data/
+    ports:
+      - '1883:1883'
+      - '9001:9001'
+    networks:
+      - flextools
+
+networks:
+  flextools:
+    name: flextools
+    driver: bridge
+

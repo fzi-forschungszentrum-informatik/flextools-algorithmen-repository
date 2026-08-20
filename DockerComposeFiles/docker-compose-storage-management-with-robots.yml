@@ -1,0 +1,192 @@
+services:
+
+  taskassignment:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/task_assignment
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/taskassignment:${IMAGE_TAG:-local}
+    env_file:
+      - ./env_files/storage_location_tracking_with_robots.env
+    container_name: taskassignment
+    environment:
+      ENV_IN_DOCKER: "True"
+      TASK_ASSIGNMENT_STRATEGY: ${TASK_ASSIGNMENT_STRATEGY}
+      USE_IMPROVEMENT: ${USE_IMPROVEMENT}
+    restart: always
+    ports:
+      - '3000:3000'
+    networks:
+      - flextools
+
+  systemstatemanagement:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/system_state_management
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/systemstatemanagement:${IMAGE_TAG:-local}
+    env_file:
+      - ./env_files/storage_location_tracking_with_robots.env
+    container_name: systemstatemanagement
+    environment:
+      ENV_IN_DOCKER: "True"
+      STATE_FILE: ${SYSTEM_STATE_FILE}
+      STORAGE_LOCATION_TRACKING: ${STORAGE_LOCATION_TRACKING}
+      SIMULATION_ACTIVE: ${SIMULATION_ACTIVE}
+    restart: always
+    ports:
+      - '3001:3001'
+    networks:
+      - flextools
+
+  ordermanagement:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/order_management
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/ordermanagement:${IMAGE_TAG:-local}
+    env_file:
+      - ./env_files/storage_location_tracking_with_robots.env
+    container_name: ordermanagement
+    environment:
+      ENV_IN_DOCKER: "True"
+      STORAGE_LOCATION_TRACKING: ${STORAGE_LOCATION_TRACKING}
+    restart: always
+    ports:
+      - '3002:3002'
+    networks:
+      - flextools
+
+  amrcommunication:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/amr_communication
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/amrcommunication:${IMAGE_TAG:-local}
+    env_file:
+      - ./env_files/storage_location_tracking_with_robots.env
+    container_name: amrcommunication
+    environment:
+      ENV_IN_DOCKER: "True"
+      STORAGE_LOCATION_TRACKING: ${STORAGE_LOCATION_TRACKING}
+      MQTTBROKER_HOST: ${MQTT_BROKER_HOST}
+      MQTTBROKER_PORT: ${MQTT_BROKER_PORT}
+      MQTT_ORDER_TOPIC: ${MQTT_ORDER_TOPIC}
+      MQTT_CONNECTION_TOPIC: ${MQTT_CONNECTION_TOPIC}
+      MQTT_STATE_TOPIC: ${MQTT_STATE_TOPIC}
+      AMR_SIMULATION_ACTIVE: ${SIMULATION_ACTIVE}
+      USE_MQTT: ${USE_MQTT}
+    restart: always
+    ports:
+      - '3003:3003'
+    networks:
+      - flextools
+
+  basedatamanagement:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/base_data_management
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/basedatamanagement:${IMAGE_TAG:-local}
+    env_file:
+      - ./env_files/storage_location_tracking_with_robots.env
+    container_name: basedatamanagement
+    environment:
+      ENV_IN_DOCKER: "True"
+      BASE_DATA_FILE: ${BASE_DATA_FILE}
+    restart: always
+    ports:
+      - '3005:3005'
+    networks:
+      - flextools
+
+  pathplanning:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/path_planning_service
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/pathplanning:${IMAGE_TAG:-local}
+    env_file:
+      - ./env_files/storage_location_tracking_with_robots.env
+    container_name: pathplanning
+    environment:
+      ENV_IN_DOCKER: "True"
+      LIF_FILE: ${LIF_FILE}
+      PATH_PLANNING_STRATEGY: ${PATH_PLANNING_STRATEGY}
+      DIRECTED_GRAPH: ${DIRECTED_GRAPH}
+    restart: always
+    ports:
+      - '3006:3006'
+    networks:
+      - flextools
+
+  userinterface:
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/user_interface
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/userinterface:${IMAGE_TAG:-local}
+    env_file:
+      - ./env_files/storage_location_tracking_with_robots.env
+    container_name: userinterface
+    environment:
+      ENV_IN_DOCKER: "True"
+      STORAGE_LOCATION_TRACKING: ${STORAGE_LOCATION_TRACKING}
+      AMR_SIMULATION_ACTIVE: ${SIMULATION_ACTIVE}
+    restart: always
+    ports:
+      - '3010:3010'
+    networks:
+      - flextools
+
+  db:
+    image: postgres:17
+    restart: always
+    environment:
+      - POSTGRES_DB=flextools_adm
+      - POSTGRES_USER=flextools_adm
+      - POSTGRES_PASSWORD=flextools_adm
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U flextools_adm" ]
+      interval: 1s
+      timeout: 3s
+      retries: 5
+    networks:
+      - flextools
+
+  slt-db: # Database for SLT service
+    image: postgres:17
+    restart: always
+    environment:
+      - POSTGRES_DB=flextools_slt
+      - POSTGRES_USER=flextools_slt
+      - POSTGRES_PASSWORD=flextools_slt
+    volumes:
+      - slt_postgres_data:/var/lib/postgresql/data  # Separate volume for SLT data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U flextools_slt" ]
+      interval: 1s
+      timeout: 3s
+      retries: 5
+    networks:
+      - flextools
+
+  slt: # Storage Location Tracking Service
+    build:
+      context: ../FleetManagementEvaluationFramework/FleetManagementServices/storage_location_tracking
+      dockerfile: Dockerfile
+    image: ${IMAGE_PREFIX:-flextools}/storage_location_tracking:${IMAGE_TAG:-local}
+    container_name: slt
+    ports:
+      - "5003:5000"
+    environment:
+      - DATABASE_URI=postgresql://flextools_slt:flextools_slt@slt-db:5432/flextools_slt  # Connect to slt-db
+    depends_on:
+      slt-db:
+        condition: service_healthy
+    networks:
+      - flextools
+
+volumes:
+  postgres_data:
+  slt_postgres_data:
+
+networks:
+  flextools:
+    name: flextools
+    driver: bridge

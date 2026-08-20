@@ -24,20 +24,20 @@ Figure 1 illustrates the overall system architecture and the interaction between
 
 ## 📦 Main Components
 
-| Component | Type | Purpose | Start mode | Location                       |
-|---|---|---|---|--------------------------------|
-| Storage Location Tracking | Service | Tracks storage item locations | Docker | `.../StorageLocationTracking/` |
-| Path Planning | Service / Algorithms | Collision-free route planning for AMRs | Docker / local | `.../path_planning_service/`   |
-| Task Assignment | Service / Algorithms | Assigns transport tasks to AMRs | Docker / local | `.../task_assignment/`         |
-| System state management | Service  | Store the current system state and processes state updates | Docker / local | `.../system_state_management/` |
-| Order Management | Service | Stores information about all transport orders | Docker / local | `.../order_management/`        |
-| AMR Communication | Service | Interface to AMRs via messaging standard VDA5050 | Docker / local | `.../amr_communication/`       |
-| User Interface | Service | Web Interface to manage fleet management system | Docker / local | `.../user_interface/`          |
-| Base Data Management | Service | Conatins base data of the AMR fleet | Docker / local | `.../base_data_management/`    |
-| AMR Simulation | Evaluation Service | Event-driven discrete time step simulation of AMR fleet | Docker / local | `.../amr_simulation/`          |
-| Scenario Evaluation | Evaluation Service | Runs evaluation scenarios | Local | `.../scenario_evaluation/`     |
-| Rouitng Graph Generation | Algorithms | Generates routing graphs and benchmark instances | Local | `.../instance_generation/`     |
-| Visualization and Analysis | Evaluation Service | Analyzes and visualizes results | Local | `.../visualizations_analysis`  |
+| Component | Type | Purpose | Start mode | Location                         |
+|---|---|---|---|----------------------------------|
+| Storage Location Tracking | Service | Tracks storage item locations | Docker | `.../storage_location_tracking/` |
+| Path Planning | Service / Algorithms | Collision-free route planning for AMRs | Docker / local | `.../path_planning_service/`     |
+| Task Assignment | Service / Algorithms | Assigns transport tasks to AMRs | Docker / local | `.../task_assignment/`           |
+| System state management | Service  | Store the current system state and processes state updates | Docker / local | `.../system_state_management/`   |
+| Order Management | Service | Stores information about all transport orders | Docker / local | `.../order_management/`          |
+| AMR Communication | Service | Interface to AMRs via messaging standard VDA5050 | Docker / local | `.../amr_communication/`         |
+| User Interface | Service | Web Interface to manage fleet management system | Docker / local | `.../user_interface/`            |
+| Base Data Management | Service | Conatins base data of the AMR fleet | Docker / local | `.../base_data_management/`      |
+| AMR Simulation | Evaluation Service | Event-driven discrete time step simulation of AMR fleet | Docker / local | `.../amr_simulation/`            |
+| Scenario Evaluation | Evaluation Service | Runs evaluation scenarios | Local | `.../scenario_evaluation/`       |
+| Rouitng Graph Generation | Algorithms | Generates routing graphs and benchmark instances | Local | `.../instance_generation/`       |
+| Visualization and Analysis | Evaluation Service | Analyzes and visualizes results | Local | `.../visualizations_analysis`    |
 
 ## 📁 Repository Structure
 The repository is structured as follows:
@@ -72,7 +72,7 @@ The repository is structured as follows:
 - FleetManagementEvaluationFramework/FleetManagementServices/path_planning/mapf_algorithms/path_planning/
 
 ### **Routing Graph Generation / Instance Generation** 
-- FleetManagementEvaluationFramework/ScenarioEvaluationServices/instance_generation/routing_graph_generation_methods/
+- FleetManagementEvaluationFramework/ScenarioEvaluationServices/instance_generation/generator_scripts/
 
 ### **Multi-Agent Task Assignment / MAPD**
 - FleetManagementEvaluationFramework/FleetManagementServices/task_assignment/logic/task_assignment/

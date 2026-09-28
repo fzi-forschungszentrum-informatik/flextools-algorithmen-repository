@@ -1,7 +1,7 @@
 # Lay2Graph-MAPD: A Modular Framework with Layout-Aware Graph Generation for Multi-Agent Pickup and Delivery Problems
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21410201.svg)](https://doi.org/10.5281/zenodo.21410202)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../LICENSE)
 [![Release](https://img.shields.io/github/v/release/fzi-forschungszentrum-informatik/flextools-algorithmen-repository)](https://github.com/fzi-forschungszentrum-informatik/flextools-algorithmen-repository/releases)
 
 ![plot](../images_readme/flextools.png)

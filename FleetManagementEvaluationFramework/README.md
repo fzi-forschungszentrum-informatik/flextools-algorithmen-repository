@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/juknierim/Lay2Graph-MAPD-Framework)](https://github.com/juknierim/Lay2Graph-MAPD-Framework/releases)
 
-![plot](./images_readme/flextools.png)
+![plot](../images_readme/flextools.png)
 
 ## 🟢 What is it?
 This algorithm repository provides a modular framework for planning and controlling Autonomous Mobile Robots (AMRs) in
@@ -16,7 +16,7 @@ adaptability to existing infrastructure and data-driven optimization of robot op
 The archived release associated with the paper is permanently available on Zenodo:
 
 The latest development version is available on GitHub:
-https://github.com/juknierim/Lay2Graph-MAPD-Framework
+https://github.com/fzi-forschungszentrum-informatik/flextools-algorithmen-repository
 
 If you use Lay2Graph-MAPD in your research, please cite the corresponding publication and/or the Zenodo release.
 

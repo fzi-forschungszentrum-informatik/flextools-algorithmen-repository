@@ -1,4 +1,8 @@
 # FlexTools Fleet Management Framework and Planning Algorithms
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/fzi-forschungszentrum-informatik/flextools-algorithmen-repository)](https://github.com/fzi-forschungszentrum-informatik/flextools-algorithmen-repository/releases)
+
+
 ![plot](./images_readme/flextools.png)
 ## 🟢 What is it?
 This repository provides a modular framework for planning and controlling Autonomous Mobile Robots (AMRs) in

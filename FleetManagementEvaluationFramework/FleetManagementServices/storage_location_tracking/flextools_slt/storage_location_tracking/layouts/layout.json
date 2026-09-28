@@ -1,0 +1,314 @@
+{
+    "metaInformation": {
+        "projectIdentification": "LIF Example 03", 
+        "exportTimestamp": "2023-09-28T10:00:00.00Z", 
+        "lifVersion": "1.0.0", 
+        "creator": "VDMA"
+    }, 
+    "layouts": [
+        {
+            "layoutId": "map", 
+            "nodes": [
+                {
+                    "nodePosition": {
+                        "y": -2.5112272819668346, 
+                        "x": -0.23546199261165587
+                    }, 
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "theta": 0.7625328624491112, 
+                            "vehicleTypeId": [
+                                "evorobot"
+                            ], 
+                            "actions": []
+                        }
+                    ], 
+                    "mapId": "N_0_poi", 
+                    "nodeId": "N_0", 
+                    "nodeName": "N_0"
+                }, 
+                {
+                    "nodePosition": {
+                        "y": -4.5938747589754785, 
+                        "x": 2.9589843022236897
+                    }, 
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "theta": -0.8018554766694698, 
+                            "vehicleTypeId": [
+                                "evorobot"
+                            ], 
+                            "actions": []
+                        }
+                    ], 
+                    "mapId": "N_1_poi", 
+                    "nodeId": "N_1", 
+                    "nodeName": "N_1"
+                }, 
+                {
+                    "nodePosition": {
+                        "y": -5.274643097646543, 
+                        "x": 3.615754700618936
+                    }, 
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "theta": -0.794455148591363, 
+                            "vehicleTypeId": [
+                                "evorobot"
+                            ], 
+                            "actions": []
+                        }
+                    ], 
+                    "mapId": "N_2_poi", 
+                    "nodeId": "N_2", 
+                    "nodeName": "N_2"
+                }, 
+                {
+                    "nodePosition": {
+                        "y": -5.951394500235055, 
+                        "x": 4.2965636262512374
+                    }, 
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "theta": -0.778262790630953, 
+                            "vehicleTypeId": [
+                                "evorobot"
+                            ], 
+                            "actions": []
+                        }
+                    ], 
+                    "mapId": "N_3_poi", 
+                    "nodeId": "N_3", 
+                    "nodeName": "N_3"
+                }, 
+                {
+                    "nodePosition": {
+                        "y": -5.3370037766338605, 
+                        "x": 2.1875905043239436
+                    }, 
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "theta": -0.7945689931503034, 
+                            "vehicleTypeId": [
+                                "evorobot"
+                            ], 
+                            "actions": []
+                        }
+                    ], 
+                    "mapId": "N_4_poi", 
+                    "nodeId": "N_4", 
+                    "nodeName": "N_4"
+                }, 
+                {
+                    "nodePosition": {
+                        "y": -6.017192849388553, 
+                        "x": 2.8432660163827568
+                    }, 
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "theta": -0.788744337140839, 
+                            "vehicleTypeId": [
+                                "evorobot"
+                            ], 
+                            "actions": []
+                        }
+                    ], 
+                    "mapId": "N_5_poi", 
+                    "nodeId": "N_5", 
+                    "nodeName": "N_5"
+                }, 
+                {
+                    "nodePosition": {
+                        "y": -6.7099342089957315, 
+                        "x": 3.4973024040494174
+                    }, 
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "theta": -0.7947076349045281, 
+                            "vehicleTypeId": [
+                                "evorobot"
+                            ], 
+                            "actions": []
+                        }
+                    ], 
+                    "mapId": "N_6_poi", 
+                    "nodeId": "N_6", 
+                    "nodeName": "N_6"
+                }, 
+                {
+                    "nodePosition": {
+                        "y": -6.080079185337322, 
+                        "x": 1.3894317900453135
+                    }, 
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "theta": -0.7887426131918951, 
+                            "vehicleTypeId": [
+                                "evorobot"
+                            ], 
+                            "actions": []
+                        }
+                    ], 
+                    "mapId": "N_7_poi", 
+                    "nodeId": "N_7", 
+                    "nodeName": "N_7"
+                }, 
+                {
+                    "nodePosition": {
+                        "y": -6.767106571931414, 
+                        "x": 2.0568087074128707
+                    }, 
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "theta": -0.7919357323845785, 
+                            "vehicleTypeId": [
+                                "evorobot"
+                            ], 
+                            "actions": []
+                        }
+                    ], 
+                    "mapId": "N_8_poi", 
+                    "nodeId": "N_8", 
+                    "nodeName": "N_8"
+                }, 
+                {
+                    "nodePosition": {
+                        "y": -7.455940005608978, 
+                        "x": 2.7248000648487785
+                    }, 
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "theta": -0.7936039371939336, 
+                            "vehicleTypeId": [
+                                "evorobot"
+                            ], 
+                            "actions": []
+                        }
+                    ], 
+                    "mapId": "N_9_poi", 
+                    "nodeId": "N_9", 
+                    "nodeName": "N_9"
+                }, 
+                {
+                    "nodePosition": {
+                        "y": -3.72389634503346, 
+                        "x": -1.529324228631871
+                    }, 
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "theta": -2.3832054277454886, 
+                            "vehicleTypeId": [
+                                "evorobot"
+                            ], 
+                            "actions": []
+                        }
+                    ], 
+                    "mapId": "N_10_poi", 
+                    "nodeId": "N_10", 
+                    "nodeName": "N_10"
+                }
+            ], 
+            "stations": [
+                {
+                    "interactionNodeIds": [], 
+                    "stationId": "S_0", 
+                    "stationPosition": {
+                        "y": -1.8613120077061827, 
+                        "x": 0.47372396907923814
+                    }, 
+                    "stationName": "S_0"
+                }, 
+                {
+                    "interactionNodeIds": [], 
+                    "stationId": "S_1", 
+                    "stationPosition": {
+                        "y": -5.274643097646543, 
+                        "x": 3.615754700618936
+                    }, 
+                    "stationName": "S_1"
+                }, 
+                {
+                    "interactionNodeIds": [], 
+                    "stationId": "S_2", 
+                    "stationPosition": {
+                        "y": -5.951394500235055, 
+                        "x": 4.2965636262512374
+                    }, 
+                    "stationName": "S_2"
+                }, 
+                {
+                    "interactionNodeIds": [], 
+                    "stationId": "S_3", 
+                    "stationPosition": {
+                        "y": -6.63398300186321, 
+                        "x": 4.960122419140726
+                    }, 
+                    "stationName": "S_3"
+                }, 
+                {
+                    "interactionNodeIds": [], 
+                    "stationId": "S_4", 
+                    "stationPosition": {
+                        "y": -6.017192849388553, 
+                        "x": 2.8432660163827568
+                    }, 
+                    "stationName": "S_4"
+                }, 
+                {
+                    "interactionNodeIds": [], 
+                    "stationId": "S_5", 
+                    "stationPosition": {
+                        "y": -6.709939462681302, 
+                        "x": 3.4976777604988403
+                    }, 
+                    "stationName": "S_5"
+                }, 
+                {
+                    "interactionNodeIds": [], 
+                    "stationId": "S_6", 
+                    "stationPosition": {
+                        "y": -7.384689384773906, 
+                        "x": 4.164968095189311
+                    }, 
+                    "stationName": "S_6"
+                }, 
+                {
+                    "interactionNodeIds": [], 
+                    "stationId": "S_7", 
+                    "stationPosition": {
+                        "y": -6.767106571931414, 
+                        "x": 2.0568087074128707
+                    }, 
+                    "stationName": "S_7"
+                }, 
+                {
+                    "interactionNodeIds": [], 
+                    "stationId": "S_8", 
+                    "stationPosition": {
+                        "y": -7.455940005608978, 
+                        "x": 2.7248000648487785
+                    }, 
+                    "stationName": "S_8"
+                }, 
+                {
+                    "interactionNodeIds": [], 
+                    "stationId": "S_9", 
+                    "stationPosition": {
+                        "y": -8.143456156036336, 
+                        "x": 3.356814063730791
+                    }, 
+                    "stationName": "S_9"
+                }, 
+                {
+                    "interactionNodeIds": [], 
+                    "stationId": "S_10", 
+                    "stationPosition": {
+                        "y": -4.393651401355042, 
+                        "x": -2.246892766657496
+                    }, 
+                    "stationName": "S_10"
+                }
+            ]
+        }
+    ]
+}

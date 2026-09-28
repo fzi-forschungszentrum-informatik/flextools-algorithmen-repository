@@ -1,0 +1,18 @@
+[
+  {
+    "order_id": "Order1",
+    "source_id": "N_0_1",
+    "sink_id": "N_1_1",
+    "start_time": "2024-12-03T09:00:00.000Z",
+    "due_time": "2024-12-03T17:00:00.000Z",
+    "layout_id": "map1",
+    "pickup_time": 60,
+    "dropoff_time": 60,
+    "dimension": {
+      "x": 30,
+      "y": 30,
+      "z": 20,
+      "weight": 0.5
+    }
+  }
+]

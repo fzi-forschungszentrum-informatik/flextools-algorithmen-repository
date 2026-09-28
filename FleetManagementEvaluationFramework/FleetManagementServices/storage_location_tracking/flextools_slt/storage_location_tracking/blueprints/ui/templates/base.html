@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Storage Location Tracking{% endblock %}</title>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> 
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap5.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="/"> 
+    <img src="{{ url_for('static', filename='images/flextools-Logo-300x117.jpg') }}" alt="Flextools Logo" class="me-2"> 
+    <span>Storage Location Tracking</span> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto"> <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/api/v1">Documentation</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="grid-container">
+    <header class="header">
+      </header>
+    <aside class="sidenav">
+      <al class="sidenav_list">
+        <a href="/items"><li class="sidenav_list-item">Items</li></a>
+        <a href="/uls"><li class="sidenav_list-item">Unit Loads</li></a>
+        <a href="/ulhistory"><li class="sidenav_list-item">UL History</li></a>
+        <a href="/locations"><li class="sidenav_list-item">Locations</li></a>
+      </al>
+    </aside>
+    <main class="main">
+      {% block content %}
+      <div class="widget-container">
+        <div class="widget">
+          <a href="/items" class="btn btn-primary">Items</a>
+        </div>
+        <div class="widget">
+          <a href="/uls" class="btn btn-primary">Unit Loads</a>
+        </div>
+        <div class="widget">
+          <a href="/ulhistory" class="btn btn-primary">UL History</a>
+        </div>
+        <div class="widget">
+          <a href="/locations" class="btn btn-primary">Locations</a>
+        </div>
+      </div>
+      {% endblock %}
+    </main>
+    <footer class="footer">
+    <div class="footer__content"> {# Added a container for better organization #}
+        <div class="footer__copyright">&copy; 2024 IMI</div>
+    </div>
+    <a href="/">
+      <img src="{{ url_for('static', filename='images/KIT_Logo.png') }}" alt="KIT Logo" class="footer__logo">
+    </a>
+  </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+  <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap5.js"></script>
+  <script src="https://d3js.org/d3.v6.js"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

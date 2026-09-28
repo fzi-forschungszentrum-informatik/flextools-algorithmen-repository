@@ -1,0 +1,2503 @@
+{   
+  "metaInformation":{ 
+    "projectIdentification":"LIF Example 03", 
+    "creator":"VDMA", 
+    "exportTimestamp":"2023-09-28T10:00:00.00Z", 
+    "lifVersion":"1.0.0"
+  },   
+  "layouts": [
+    {
+        "layoutId": "map1",
+        "nodes": [
+            {
+                "nodeId": "N_0_0",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_0_1",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 0.0,
+                    "y": 30.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_0_2",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 0.0,
+                    "y": 60.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_0_3",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_0_4",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 0.0,
+                    "y": 120.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_0_5",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 0.0,
+                    "y": 150.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_0_6",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 0.0,
+                    "y": 180.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_1_0",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 30.0,
+                    "y": 0.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_1_1",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 30.0,
+                    "y": 30.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_1_2",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 30.0,
+                    "y": 60.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_1_3",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 30.0,
+                    "y": 90.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_1_4",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 30.0,
+                    "y": 120.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_1_5",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 30.0,
+                    "y": 150.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_1_6",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 30.0,
+                    "y": 180.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_2_0",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 60.0,
+                    "y": 0.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_2_1",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 60.0,
+                    "y": 30.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_2_2",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 60.0,
+                    "y": 60.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_2_3",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 60.0,
+                    "y": 90.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_2_4",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 60.0,
+                    "y": 120.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_2_5",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 60.0,
+                    "y": 150.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_2_6",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 60.0,
+                    "y": 180.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_3_0",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 90.0,
+                    "y": 0.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_3_1",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 90.0,
+                    "y": 30.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_3_2",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 90.0,
+                    "y": 60.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_3_3",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 90.0,
+                    "y": 90.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_3_4",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 90.0,
+                    "y": 120.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_3_5",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 90.0,
+                    "y": 150.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_3_6",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 90.0,
+                    "y": 180.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_4_0",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 120.0,
+                    "y": 0.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_4_1",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 120.0,
+                    "y": 30.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_4_2",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 120.0,
+                    "y": 60.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_4_3",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 120.0,
+                    "y": 90.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_4_4",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 120.0,
+                    "y": 120.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_4_5",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 120.0,
+                    "y": 150.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_4_6",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 120.0,
+                    "y": 180.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_5_0",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 150.0,
+                    "y": 0.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_5_1",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 150.0,
+                    "y": 30.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_5_2",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 150.0,
+                    "y": 60.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_5_3",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 150.0,
+                    "y": 90.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_5_4",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 150.0,
+                    "y": 120.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_5_5",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 150.0,
+                    "y": 150.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_5_6",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 150.0,
+                    "y": 180.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_6_0",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 180.0,
+                    "y": 0.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_6_1",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 180.0,
+                    "y": 30.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_6_2",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 180.0,
+                    "y": 60.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_6_3",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 180.0,
+                    "y": 90.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_6_4",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 180.0,
+                    "y": 120.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_6_5",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 180.0,
+                    "y": 150.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_6_6",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 180.0,
+                    "y": 180.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_7_0",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 210.0,
+                    "y": 0.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_7_1",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 210.0,
+                    "y": 30.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_7_2",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 210.0,
+                    "y": 60.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_7_3",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 210.0,
+                    "y": 90.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_7_4",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 210.0,
+                    "y": 120.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_7_5",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 210.0,
+                    "y": 150.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_7_6",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 210.0,
+                    "y": 180.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_8_0",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 240.0,
+                    "y": 0.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_8_1",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 240.0,
+                    "y": 30.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_8_2",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 240.0,
+                    "y": 60.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_8_3",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 240.0,
+                    "y": 90.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_8_4",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 240.0,
+                    "y": 120.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_8_5",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 240.0,
+                    "y": 150.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_8_6",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 240.0,
+                    "y": 180.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_9_0",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 270.0,
+                    "y": 0.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_9_1",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 270.0,
+                    "y": 30.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_9_2",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 270.0,
+                    "y": 60.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_9_3",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 270.0,
+                    "y": 90.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_9_4",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 270.0,
+                    "y": 120.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_9_5",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 270.0,
+                    "y": 150.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_9_6",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 270.0,
+                    "y": 180.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_10_0",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 300.0,
+                    "y": 0.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_10_1",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 300.0,
+                    "y": 30.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_10_2",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 300.0,
+                    "y": 60.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_10_3",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 300.0,
+                    "y": 90.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_10_4",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 300.0,
+                    "y": 120.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_10_5",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 300.0,
+                    "y": 150.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_10_6",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 300.0,
+                    "y": 180.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_11_0",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 330.0,
+                    "y": 0.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_11_1",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 330.0,
+                    "y": 30.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_11_2",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 330.0,
+                    "y": 60.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_11_3",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 330.0,
+                    "y": 90.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_11_4",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 330.0,
+                    "y": 120.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_11_5",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 330.0,
+                    "y": 150.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            },
+            {
+                "nodeId": "N_11_6",
+                "sequenceId": 0,
+                "released": true,
+                "nodePosition": {
+                    "x": 330.0,
+                    "y": 180.0,
+                    "mapId": "map1"
+                },
+                "actions": []
+            }
+        ],
+        "edges": [
+            {
+                "edgeId": "E-0_0-0_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_0",
+                "endNodeId": "N_0_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-0_0-1_0",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_0",
+                "endNodeId": "N_1_0",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-0_1-0_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_1",
+                "endNodeId": "N_0_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-0_1-1_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_1",
+                "endNodeId": "N_1_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-0_2-0_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_2",
+                "endNodeId": "N_0_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-0_2-1_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_2",
+                "endNodeId": "N_1_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-0_3-0_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_3",
+                "endNodeId": "N_0_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-0_3-1_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_3",
+                "endNodeId": "N_1_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-0_4-0_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_4",
+                "endNodeId": "N_0_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-0_4-1_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_4",
+                "endNodeId": "N_1_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-0_5-0_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_5",
+                "endNodeId": "N_0_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-0_5-1_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_5",
+                "endNodeId": "N_1_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-0_6-1_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_0_6",
+                "endNodeId": "N_1_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_0-1_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_0",
+                "endNodeId": "N_1_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_0-2_0",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_0",
+                "endNodeId": "N_2_0",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_1-1_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_1",
+                "endNodeId": "N_1_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_1-2_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_1",
+                "endNodeId": "N_2_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_2-1_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_2",
+                "endNodeId": "N_1_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_2-2_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_2",
+                "endNodeId": "N_2_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_3-1_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_3",
+                "endNodeId": "N_1_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_3-2_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_3",
+                "endNodeId": "N_2_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_4-1_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_4",
+                "endNodeId": "N_1_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_4-2_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_4",
+                "endNodeId": "N_2_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_5-1_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_5",
+                "endNodeId": "N_1_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_5-2_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_5",
+                "endNodeId": "N_2_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-1_6-2_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_1_6",
+                "endNodeId": "N_2_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_0-2_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_0",
+                "endNodeId": "N_2_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_0-3_0",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_0",
+                "endNodeId": "N_3_0",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_1-2_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_1",
+                "endNodeId": "N_2_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_1-3_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_1",
+                "endNodeId": "N_3_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_2-2_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_2",
+                "endNodeId": "N_2_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_2-3_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_2",
+                "endNodeId": "N_3_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_3-2_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_3",
+                "endNodeId": "N_2_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_3-3_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_3",
+                "endNodeId": "N_3_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_4-2_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_4",
+                "endNodeId": "N_2_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_4-3_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_4",
+                "endNodeId": "N_3_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_5-2_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_5",
+                "endNodeId": "N_2_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_5-3_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_5",
+                "endNodeId": "N_3_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-2_6-3_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_2_6",
+                "endNodeId": "N_3_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_0-3_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_0",
+                "endNodeId": "N_3_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_0-4_0",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_0",
+                "endNodeId": "N_4_0",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_1-3_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_1",
+                "endNodeId": "N_3_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_1-4_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_1",
+                "endNodeId": "N_4_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_2-3_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_2",
+                "endNodeId": "N_3_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_2-4_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_2",
+                "endNodeId": "N_4_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_3-3_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_3",
+                "endNodeId": "N_3_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_3-4_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_3",
+                "endNodeId": "N_4_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_4-3_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_4",
+                "endNodeId": "N_3_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_4-4_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_4",
+                "endNodeId": "N_4_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_5-3_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_5",
+                "endNodeId": "N_3_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_5-4_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_5",
+                "endNodeId": "N_4_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-3_6-4_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_3_6",
+                "endNodeId": "N_4_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_0-4_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_0",
+                "endNodeId": "N_4_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_0-5_0",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_0",
+                "endNodeId": "N_5_0",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_1-4_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_1",
+                "endNodeId": "N_4_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_1-5_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_1",
+                "endNodeId": "N_5_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_2-4_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_2",
+                "endNodeId": "N_4_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_2-5_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_2",
+                "endNodeId": "N_5_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_3-4_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_3",
+                "endNodeId": "N_4_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_3-5_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_3",
+                "endNodeId": "N_5_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_4-4_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_4",
+                "endNodeId": "N_4_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_4-5_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_4",
+                "endNodeId": "N_5_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_5-4_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_5",
+                "endNodeId": "N_4_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_5-5_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_5",
+                "endNodeId": "N_5_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-4_6-5_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_4_6",
+                "endNodeId": "N_5_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_0-5_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_0",
+                "endNodeId": "N_5_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_0-6_0",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_0",
+                "endNodeId": "N_6_0",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_1-5_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_1",
+                "endNodeId": "N_5_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_1-6_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_1",
+                "endNodeId": "N_6_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_2-5_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_2",
+                "endNodeId": "N_5_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_2-6_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_2",
+                "endNodeId": "N_6_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_3-5_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_3",
+                "endNodeId": "N_5_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_3-6_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_3",
+                "endNodeId": "N_6_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_4-5_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_4",
+                "endNodeId": "N_5_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_4-6_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_4",
+                "endNodeId": "N_6_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_5-5_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_5",
+                "endNodeId": "N_5_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_5-6_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_5",
+                "endNodeId": "N_6_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-5_6-6_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_5_6",
+                "endNodeId": "N_6_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_0-6_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_0",
+                "endNodeId": "N_6_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_0-7_0",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_0",
+                "endNodeId": "N_7_0",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_1-6_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_1",
+                "endNodeId": "N_6_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_1-7_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_1",
+                "endNodeId": "N_7_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_2-6_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_2",
+                "endNodeId": "N_6_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_2-7_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_2",
+                "endNodeId": "N_7_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_3-6_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_3",
+                "endNodeId": "N_6_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_3-7_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_3",
+                "endNodeId": "N_7_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_4-6_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_4",
+                "endNodeId": "N_6_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_4-7_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_4",
+                "endNodeId": "N_7_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_5-6_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_5",
+                "endNodeId": "N_6_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_5-7_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_5",
+                "endNodeId": "N_7_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-6_6-7_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_6_6",
+                "endNodeId": "N_7_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_0-7_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_0",
+                "endNodeId": "N_7_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_0-8_0",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_0",
+                "endNodeId": "N_8_0",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_1-7_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_1",
+                "endNodeId": "N_7_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_1-8_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_1",
+                "endNodeId": "N_8_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_2-7_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_2",
+                "endNodeId": "N_7_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_2-8_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_2",
+                "endNodeId": "N_8_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_3-7_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_3",
+                "endNodeId": "N_7_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_3-8_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_3",
+                "endNodeId": "N_8_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_4-7_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_4",
+                "endNodeId": "N_7_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_4-8_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_4",
+                "endNodeId": "N_8_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_5-7_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_5",
+                "endNodeId": "N_7_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_5-8_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_5",
+                "endNodeId": "N_8_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-7_6-8_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_7_6",
+                "endNodeId": "N_8_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_0-8_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_0",
+                "endNodeId": "N_8_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_0-9_0",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_0",
+                "endNodeId": "N_9_0",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_1-8_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_1",
+                "endNodeId": "N_8_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_1-9_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_1",
+                "endNodeId": "N_9_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_2-8_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_2",
+                "endNodeId": "N_8_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_2-9_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_2",
+                "endNodeId": "N_9_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_3-8_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_3",
+                "endNodeId": "N_8_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_3-9_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_3",
+                "endNodeId": "N_9_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_4-8_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_4",
+                "endNodeId": "N_8_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_4-9_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_4",
+                "endNodeId": "N_9_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_5-8_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_5",
+                "endNodeId": "N_8_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_5-9_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_5",
+                "endNodeId": "N_9_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-8_6-9_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_8_6",
+                "endNodeId": "N_9_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_0-9_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_0",
+                "endNodeId": "N_9_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_0-10_0",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_0",
+                "endNodeId": "N_10_0",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_1-9_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_1",
+                "endNodeId": "N_9_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_1-10_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_1",
+                "endNodeId": "N_10_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_2-9_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_2",
+                "endNodeId": "N_9_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_2-10_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_2",
+                "endNodeId": "N_10_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_3-9_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_3",
+                "endNodeId": "N_9_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_3-10_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_3",
+                "endNodeId": "N_10_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_4-9_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_4",
+                "endNodeId": "N_9_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_4-10_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_4",
+                "endNodeId": "N_10_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_5-9_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_5",
+                "endNodeId": "N_9_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_5-10_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_5",
+                "endNodeId": "N_10_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-9_6-10_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_9_6",
+                "endNodeId": "N_10_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_0-10_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_0",
+                "endNodeId": "N_10_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_0-11_0",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_0",
+                "endNodeId": "N_11_0",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_1-10_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_1",
+                "endNodeId": "N_10_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_1-11_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_1",
+                "endNodeId": "N_11_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_2-10_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_2",
+                "endNodeId": "N_10_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_2-11_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_2",
+                "endNodeId": "N_11_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_3-10_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_3",
+                "endNodeId": "N_10_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_3-11_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_3",
+                "endNodeId": "N_11_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_4-10_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_4",
+                "endNodeId": "N_10_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_4-11_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_4",
+                "endNodeId": "N_11_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_5-10_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_5",
+                "endNodeId": "N_10_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_5-11_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_5",
+                "endNodeId": "N_11_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-10_6-11_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_10_6",
+                "endNodeId": "N_11_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-11_0-11_1",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_11_0",
+                "endNodeId": "N_11_1",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-11_1-11_2",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_11_1",
+                "endNodeId": "N_11_2",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-11_2-11_3",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_11_2",
+                "endNodeId": "N_11_3",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-11_3-11_4",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_11_3",
+                "endNodeId": "N_11_4",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-11_4-11_5",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_11_4",
+                "endNodeId": "N_11_5",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            },
+            {
+                "edgeId": "E-11_5-11_6",
+                "sequenceId": 0,
+                "released": true,
+                "startNodeId": "N_11_5",
+                "endNodeId": "N_11_6",
+                "maxSpeed": 1.0,
+                "length": 30.0,
+                "actions": []
+            }
+        ],
+        "stations": [
+            {
+                "stationId": "S1",
+                "interactionNodeIds": [
+                    "N_0_0",
+                    "N_0_1",
+                    "N_0_2"
+                ],
+                "stationName": "01",
+                "stationDescription": "01",
+                "stationPosition": {
+                    "x": 0,
+                    "y": 30
+                }
+            },
+            {
+                "stationId": "S2",
+                "interactionNodeIds": [
+                    "N_11_6",
+                    "N_11_5",
+                    "N_11_4"
+                ],
+                "stationName": "02",
+                "stationDescription": "02",
+                "stationPosition": {
+                    "x": 330,
+                    "y": 150
+                }
+            }, 
+            {
+                "stationId": "S3",
+                "interactionNodeIds": [
+                    "N_5_0",
+                    "N_5_1",
+                    "N_5_2"
+                ],
+                "stationName": "03",
+                "stationDescription": "03",
+                "stationPosition": {
+                    "x": 150,
+                    "y": 30
+                }
+            },
+            {
+                "stationId": "S4",
+                "interactionNodeIds": [
+                    "N_8_3",
+                    "N_8_4",
+                    "N_8_5"
+                ],
+                "stationName": "04",
+                "stationDescription": "04",
+                "stationPosition": {
+                    "x": 240,
+                    "y": 90
+                }
+            },
+            {
+                "stationId": "S5",
+                "interactionNodeIds": [
+                    "N_2_0",
+                    "N_2_1",
+                    "N_2_2"
+                ],
+                "stationName": "05",
+                "stationDescription": "05",
+                "stationPosition": {
+                    "x": 60,
+                    "y": 30
+                }
+            }
+        ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+    "metaInformation": {
+        "projectIdentification": "LIF Example 03",
+        "exportTimestamp": "2023-09-28T10:00:00.00Z",
+        "lifVersion": "1.0.0",
+        "creator": "VDMA"
+    },
+    "layouts": [
+        {
+            "layoutId": "map",
+            "nodes": [
+                {
+                    "vehicleTypeNodeProperty": {
+                        "vehicleTypeIds": [
+                            "evorobot"
+                        ],
+                        "theta": 1.1368335921164474,
+                        "actions": []
+                    },
+                    "nodePosition": {
+                        "y": -0.35605620037876573,
+                        "x": -0.6971384285391943
+                    },
+                    "mapId": "N_0_S0_map",
+                    "nodeId": "N_0",
+                    "nodeName": ""
+                },
+                {
+                    "vehicleTypeNodeProperty": {
+                        "vehicleTypeIds": [
+                            "evorobot"
+                        ],
+                        "theta": 1.1379957927963036,
+                        "actions": []
+                    },
+                    "nodePosition": {
+                        "y": -0.3594247075658789,
+                        "x": -0.6948988818884637
+                    },
+                    "mapId": "N_1_poi",
+                    "nodeId": "N_1",
+                    "nodeName": ""
+                },
+                {
+                    "vehicleTypeNodeProperty": {
+                        "vehicleTypeIds": [
+                            "evorobot"
+                        ],
+                        "theta": 1.1456019190858289,
+                        "actions": []
+                    },
+                    "nodePosition": {
+                        "y": -0.35340438879979147,
+                        "x": -0.6969910046993539
+                    },
+                    "mapId": "N_2_poi",
+                    "nodeId": "N_2",
+                    "nodeName": ""
+                },
+                {
+                    "vehicleTypeNodeProperty": {
+                        "vehicleTypeIds": [
+                            "evorobot"
+                        ],
+                        "theta": 1.1435503129410216,
+                        "actions": []
+                    },
+                    "nodePosition": {
+                        "y": -0.35345360196783737,
+                        "x": -0.7003079882370359
+                    },
+                    "mapId": "N_3_poi",
+                    "nodeId": "N_3",
+                    "nodeName": ""
+                }
+            ],
+            "stations": [
+                {
+                    "interactionNodeIds": [
+                        "N_0"
+                    ],
+                    "stationId": "S0",
+                    "stationPosition": {
+                        "y": 0.6681906747509095,
+                        "x": -0.23343243620773993
+                    },
+                    "stationName": ""
+                }
+            ]
+        }
+    ]
+}

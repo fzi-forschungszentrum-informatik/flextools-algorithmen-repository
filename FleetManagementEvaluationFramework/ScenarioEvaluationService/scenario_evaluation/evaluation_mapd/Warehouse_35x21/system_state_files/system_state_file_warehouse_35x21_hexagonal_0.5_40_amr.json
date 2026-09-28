@@ -1,0 +1,962 @@
+[
+    {
+        "amr_id": "1",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_11.5_9.34",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 11.5,
+            "y": 9.34,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "2",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_8.5_17.14",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 8.5,
+            "y": 17.14,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "3",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_33.75_14.11",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 33.75,
+            "y": 14.11,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "4",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_29.25_13.24",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 29.25,
+            "y": 13.24,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "5",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_6.0_9.34",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 6.0,
+            "y": 9.34,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "6",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_16.75_3.71",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 16.75,
+            "y": 3.71,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "7",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_20.25_3.71",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 20.25,
+            "y": 3.71,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "8",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_4.75_4.58",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 4.75,
+            "y": 4.58,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "9",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_30.25_19.3",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 30.25,
+            "y": 19.3,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "10",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_22.0_7.61",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 22.0,
+            "y": 7.61,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "11",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_27.25_7.18",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 27.25,
+            "y": 7.18,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "12",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_10.0_3.28",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 10.0,
+            "y": 3.28,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "13",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_1.5_18.0",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 1.5,
+            "y": 18.0,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "14",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_10.5_15.41",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 10.5,
+            "y": 15.41,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "15",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_12.75_19.3",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 12.75,
+            "y": 19.3,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "16",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_25.75_1.98",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 25.75,
+            "y": 1.98,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "17",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_12.75_5.45",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 12.75,
+            "y": 5.45,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "18",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_21.75_19.3",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 21.75,
+            "y": 19.3,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "19",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_10.75_3.71",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 10.75,
+            "y": 3.71,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "20",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_15.75_7.18",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 15.75,
+            "y": 7.18,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "21",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_12.25_15.84",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 12.25,
+            "y": 15.84,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "22",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_33.0_5.88",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 33.0,
+            "y": 5.88,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "23",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_21.75_15.84",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 21.75,
+            "y": 15.84,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "24",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_2.25_18.44",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 2.25,
+            "y": 18.44,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "25",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_21.25_11.51",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 21.25,
+            "y": 11.51,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "26",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_27.75_9.78",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 27.75,
+            "y": 9.78,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "27",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_10.5_1.55",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 10.5,
+            "y": 1.55,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "28",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_24.0_1.55",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 24.0,
+            "y": 1.55,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "29",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_30.25_8.91",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 30.25,
+            "y": 8.91,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "30",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_13.0_17.14",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 13.0,
+            "y": 17.14,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "31",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_33.25_7.18",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 33.25,
+            "y": 7.18,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "32",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_13.5_3.28",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 13.5,
+            "y": 3.28,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "33",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_18.75_7.18",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 18.75,
+            "y": 7.18,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "34",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_12.0_7.61",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 12.0,
+            "y": 7.61,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "35",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_15.25_19.3",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 15.25,
+            "y": 19.3,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "36",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_29.25_17.57",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 29.25,
+            "y": 17.57,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "37",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_2.25_9.78",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 2.25,
+            "y": 9.78,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "38",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_13.5_7.61",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 13.5,
+            "y": 7.61,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "39",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_25.0_17.14",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 25.0,
+            "y": 17.14,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    },
+    {
+        "amr_id": "40",
+        "order_id": "",
+        "order_update_id": 0,
+        "last_node_id": "N_27.0_19.74",
+        "driving": false,
+        "paused": false,
+        "distance_since_last_node": 0,
+        "AMRPosition": {
+            "x": 27.0,
+            "y": 19.74,
+            "theta": 0,
+            "map_id": "map_1",
+            "position_initialized": true
+        },
+        "BatteryState": {
+            "battery_charge": 1,
+            "charging": false,
+            "reach": 10000.0
+        },
+        "node_states": [],
+        "edge_states": [],
+        "action_states": []
+    }
+]

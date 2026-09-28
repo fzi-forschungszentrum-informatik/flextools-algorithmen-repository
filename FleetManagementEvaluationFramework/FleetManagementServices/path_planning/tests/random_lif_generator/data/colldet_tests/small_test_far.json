@@ -1,0 +1,302 @@
+{
+  "layouts": [
+    {
+      "layoutId": "map1",
+      "layoutName": "Demo Layout",
+      "layoutVersion": 1,
+      "layoutDescription": "Generated layout with grid and random node removal.",
+      "nodes": [
+        {
+          "nodeId": "N_0_0",
+          "sequenceId": 12,
+          "nodeDescription": null,
+          "released": true,
+          "nodePosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "theta": 0.0,
+            "mapId": "map1"
+          },
+          "actions": []
+        },
+        {
+          "nodeId": "N_1_1",
+          "sequenceId": 19,
+          "nodeDescription": null,
+          "released": true,
+          "nodePosition": {
+            "x": 1.0,
+            "y": 1.0,
+            "theta": 0.0,
+            "mapId": "map1"
+          },
+          "actions": []
+        },
+        {
+          "nodeId": "N_2_0",
+          "sequenceId": 14,
+          "nodeDescription": null,
+          "released": true,
+          "nodePosition": {
+            "x": 2.0,
+            "y": 0.0,
+            "theta": 0.0,
+            "mapId": "map1"
+          },
+          "actions": []
+        },
+        {
+          "nodeId": "N_2_1",
+          "sequenceId": 20,
+          "nodeDescription": null,
+          "released": true,
+          "nodePosition": {
+            "x": 2.0,
+            "y": 1.0,
+            "theta": 0.0,
+            "mapId": "map1"
+          },
+          "actions": []
+        },
+        {
+          "nodeId": "N_0_1",
+          "sequenceId": 18,
+          "nodeDescription": null,
+          "released": true,
+          "nodePosition": {
+            "x": 0.0,
+            "y": 1.0,
+            "theta": 0.0,
+            "mapId": "map1"
+          },
+          "actions": []
+        },
+        {
+          "nodeId": "N_1_0",
+          "sequenceId": 13,
+          "nodeDescription": null,
+          "released": true,
+          "nodePosition": {
+            "x": 1.0,
+            "y": 0.0,
+            "theta": 0.0,
+            "mapId": "map1"
+          },
+          "actions": []
+        },
+        {
+          "nodeId": "N_0_3",
+          "sequenceId": 13,
+          "nodeDescription": null,
+          "released": true,
+          "nodePosition": {
+            "x": 0.0,
+            "y": 3.0,
+            "theta": 0.0,
+            "mapId": "map1"
+          },
+          "actions": []
+        },{
+          "nodeId": "N_1_3",
+          "sequenceId": 13,
+          "nodeDescription": null,
+          "released": true,
+          "nodePosition": {
+            "x": 1.0,
+            "y": 3.0,
+            "theta": 0.0,
+            "mapId": "map1"
+          },
+          "actions": []
+        },
+        {
+          "nodeId": "N_2_3",
+          "sequenceId": 13,
+          "nodeDescription": null,
+          "released": true,
+          "nodePosition": {
+            "x": 2.0,
+            "y": 3.0,
+            "theta": 0.0,
+            "mapId": "map1"
+          },
+          "actions": []
+        }
+      ],
+      "edges": [
+        {
+          "edgeId": "N_0_0_N_1_0_0",
+          "sequenceId": 0,
+          "edgeDescription": null,
+          "released": true,
+          "startNodeId": "N_0_0",
+          "endNodeId": "N_1_0",
+          "maxSpeed": 1.0,
+          "maxHeight": null,
+          "minHeight": null,
+          "orientation": null,
+          "orientationType": null,
+          "direction": null,
+          "rotationAllowed": true,
+          "maxRotationSpeed": null,
+          "length": 1.0,
+          "trajectory": null,
+          "actions": []
+        },
+        {
+          "edgeId": "N_0_0_N_0_1_1",
+          "sequenceId": 1,
+          "edgeDescription": null,
+          "released": true,
+          "startNodeId": "N_0_0",
+          "endNodeId": "N_0_1",
+          "maxSpeed": 1.0,
+          "maxHeight": null,
+          "minHeight": null,
+          "orientation": null,
+          "orientationType": null,
+          "direction": null,
+          "rotationAllowed": true,
+          "maxRotationSpeed": null,
+          "length": 1.0,
+          "trajectory": null,
+          "actions": []
+        },
+        {
+          "edgeId": "N_1_0_N_2_0_2",
+          "sequenceId": 2,
+          "edgeDescription": null,
+          "released": true,
+          "startNodeId": "N_1_0",
+          "endNodeId": "N_2_0",
+          "maxSpeed": 1.0,
+          "maxHeight": null,
+          "minHeight": null,
+          "orientation": null,
+          "orientationType": null,
+          "direction": null,
+          "rotationAllowed": true,
+          "maxRotationSpeed": null,
+          "length": 1.0,
+          "trajectory": null,
+          "actions": []
+        },
+        {
+          "edgeId": "N_1_1_N_1_1_3",
+          "sequenceId": 3,
+          "edgeDescription": null,
+          "released": true,
+          "startNodeId": "N_1_0",
+          "endNodeId": "N_1_1",
+          "maxSpeed": 1.0,
+          "maxHeight": null,
+          "minHeight": null,
+          "orientation": null,
+          "orientationType": null,
+          "direction": null,
+          "rotationAllowed": true,
+          "maxRotationSpeed": null,
+          "length": 1.0,
+          "trajectory": null,
+          "actions": []
+        },
+        {
+          "edgeId": "N_2_2_N_2_3_4",
+          "sequenceId": 4,
+          "edgeDescription": null,
+          "released": true,
+          "startNodeId": "N_2_0",
+          "endNodeId": "N_2_1",
+          "maxSpeed": 1.0,
+          "maxHeight": null,
+          "minHeight": null,
+          "orientation": null,
+          "orientationType": null,
+          "direction": null,
+          "rotationAllowed": true,
+          "maxRotationSpeed": null,
+          "length": 1.0,
+          "trajectory": null,
+          "actions": []
+        },
+        {
+          "edgeId": "N_0_1_N_1_1_5",
+          "sequenceId": 5,
+          "edgeDescription": null,
+          "released": true,
+          "startNodeId": "N_0_1",
+          "endNodeId": "N_1_1",
+          "maxSpeed": 1.0,
+          "maxHeight": null,
+          "minHeight": null,
+          "orientation": null,
+          "orientationType": null,
+          "direction": null,
+          "rotationAllowed": true,
+          "maxRotationSpeed": null,
+          "length": 1.0,
+          "trajectory": null,
+          "actions": []
+        },
+        {
+          "edgeId": "N_1_1_N_2_1_6",
+          "sequenceId": 6,
+          "edgeDescription": null,
+          "released": true,
+          "startNodeId": "N_1_1",
+          "endNodeId": "N_2_1",
+          "maxSpeed": 1.0,
+          "maxHeight": null,
+          "minHeight": null,
+          "orientation": null,
+          "orientationType": null,
+          "direction": null,
+          "rotationAllowed": true,
+          "maxRotationSpeed": null,
+          "length": 1.0,
+          "trajectory": null,
+          "actions": []
+        },
+        {
+          "edgeId": "N_0_3_N_0_1_3",
+          "sequenceId": 7,
+          "edgeDescription": null,
+          "released": true,
+          "startNodeId": "N_0_3",
+          "endNodeId": "N_1_3",
+          "maxSpeed": 1.0,
+          "maxHeight": null,
+          "minHeight": null,
+          "orientation": null,
+          "orientationType": null,
+          "direction": null,
+          "rotationAllowed": true,
+          "maxRotationSpeed": null,
+          "length": 1.0,
+          "trajectory": null,
+          "actions": []
+        },
+                {
+          "edgeId": "N_1_3_N_0_2_3",
+          "sequenceId": 1,
+          "edgeDescription": null,
+          "released": true,
+          "startNodeId": "N_1_3",
+          "endNodeId": "N_2_3",
+          "maxSpeed": 1.0,
+          "maxHeight": null,
+          "minHeight": null,
+          "orientation": null,
+          "orientationType": null,
+          "direction": null,
+          "rotationAllowed": true,
+          "maxRotationSpeed": null,
+          "length": 1.0,
+          "trajectory": null,
+          "actions": []
+        }
+      ],
+      "stations": []
+    }
+  ]
+}

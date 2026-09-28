@@ -1,0 +1,163 @@
+{
+  "Warehouse_35x21": {
+    "Graphs": [
+      "grid_1",
+      "grid_0.5",
+      "triangle_1",
+      "triangle_0.5",
+      "hexagonal_0.5"
+    ],
+    "Number AMR": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "Task Frequency": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "Path Planning Integration": [
+      "cbs_1.0",
+      "ecbs_1.3",
+      "cbs_djs_test_1.0",
+      "ecbs_djs_test_1.3"
+    ]
+  },
+  "Grid_35x21_not_well_formed": {
+    "Graphs": [
+      "grid_1",
+      "grid_0.5",
+      "triangle_1",
+      "triangle_0.5",
+      "hexagonal_0.5"
+    ],
+    "Number AMR": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "Task Frequency": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "Path Planning Integration": [
+      "cbs_1.0",
+      "ecbs_1.3",
+      "cbs_djs_test_1.0",
+      "ecbs_djs_test_1.3"
+    ]
+  },
+  "Matrix_33x33": {
+    "Graphs": [
+      "grid_1",
+      "grid_0.5",
+      "triangle_1",
+      "triangle_0.5"
+    ],
+    "Number AMR": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "Task Frequency": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "Path Planning Integration": [
+      "cbs_1.0",
+      "ecbs_1.3",
+      "cbs_djs_test_1.0",
+      "ecbs_djs_test_1.3"
+    ]
+  },
+   "Matrix_22x22": {
+    "Graphs": [
+      "grid_1",
+      "grid_0.5",
+      "triangle_0.5",
+      "hexagonal_0.5"
+    ],
+    "Number AMR": [
+      10,
+      20,
+      30
+    ],
+    "Task Frequency": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "Path Planning Integration": [
+      "cbs_1.0",
+      "ecbs_1.3",
+      "cbs_djs_test_1.0",
+      "ecbs_djs_test_1.3"
+    ]
+  },
+  "Cross_Docking_Layout_45_45": {
+    "Graphs": [
+      "grid_1",
+      "triangle_1"
+    ],
+    "Number AMR": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "Task Frequency": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "Path Planning Integration": [
+      "cbs_1.0",
+      "ecbs_1.3",
+      "cbs_djs_test_1.0",
+      "ecbs_djs_test_1.3"
+    ]
+  },
+  "Warehouse_35x21_with_bottlenecks": {
+    "Graphs": [
+      "grid_1",
+      "grid_0.5",
+      "triangle_1",
+      "triangle_0.5",
+      "hexagonal_0.5"
+    ],
+    "Number AMR": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "Task Frequency": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "Path Planning Integration": [
+      "cbs_1.0",
+      "ecbs_1.3",
+      "cbs_djs_test_1.0",
+      "ecbs_djs_test_1.3"
+    ]
+  }
+}

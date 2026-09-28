@@ -1,0 +1,2202 @@
+[
+    {
+        "amr_id": "1",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "2",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "3",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "4",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "5",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "6",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "7",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "8",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "9",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "10",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "11",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "12",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "13",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "14",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "15",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "16",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "17",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "18",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "19",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "20",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "21",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "22",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "23",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "24",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "25",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "26",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "27",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "28",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "29",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "30",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "31",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "32",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "33",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "34",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "35",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "36",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "37",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "38",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "39",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    },
+    {
+        "amr_id": "40",
+        "type_specification": {
+            "series_name": "a_series",
+            "agv_kinematic": "DIFF",
+            "agv_class": "CARRIER",
+            "max_load_mass": 5,
+            "localization_types": [
+                "NATURAL",
+                "GRID"
+            ],
+            "navigation_types": [
+                "AUTONOMOUS"
+            ]
+        },
+        "physical_parameters": {
+            "speed_min": 0,
+            "speed_max": 1,
+            "acceleration_max": 2,
+            "deceleration_max": 3,
+            "height_max": 1.2,
+            "width": 50,
+            "length": 60
+        },
+        "protocol_features": {
+            "optional_parameters": [
+                {
+                    "parameter": "Duration",
+                    "support": "SUPPORTED"
+                }
+            ],
+            "agv_actions": [
+                {
+                    "action_type": "PICKUP",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                },
+                {
+                    "action_type": "DROPOFF",
+                    "action_scopes": [
+                        "NODE"
+                    ]
+                }
+            ]
+        },
+        "load_specification": {
+            "load_dimension": {
+                "length": 40,
+                "width": 40,
+                "height": 30
+            },
+            "max_weight": 10
+        }
+    }
+]

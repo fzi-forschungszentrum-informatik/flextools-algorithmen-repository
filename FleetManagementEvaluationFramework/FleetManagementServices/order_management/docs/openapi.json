@@ -1,0 +1,1138 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "FastAPI",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/new-order": {
+      "post": {
+        "summary": "Get New Order Request",
+        "operationId": "get_new_order_request_new_order_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewOrderInfo"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/order-update": {
+      "put": {
+        "summary": "Set Order Update Request",
+        "operationId": "set_order_update_request_order_update_put",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderUpdateRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/order-infos": {
+      "get": {
+        "summary": "Get Order Infos Request",
+        "operationId": "get_order_infos_request_order_infos_get",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderInfoRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/reset": {
+      "post": {
+        "summary": "Reset Order Management",
+        "operationId": "reset_order_management_reset_post",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "summary": "Health",
+        "operationId": "health_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/item-sku-info": {
+      "get": {
+        "summary": "Get Item Sku Info",
+        "operationId": "get_item_sku_info_item_sku_info_get",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderInfoRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Set Item Sku Info",
+        "operationId": "set_item_sku_info_item_sku_info_put",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SetSKURequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/last-order-status": {
+      "get": {
+        "summary": "Get Last Order Status",
+        "operationId": "get_last_order_status_last_order_status_get",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderInfoRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/stations-for-order": {
+      "get": {
+        "summary": "Get Stations For Order",
+        "operationId": "get_stations_for_order_stations_for_order_get",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StationInfoRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/set-reposition-order": {
+      "post": {
+        "summary": "Set Reposition Order",
+        "operationId": "set_reposition_order_set_reposition_order_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RepositionOrder"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Action": {
+        "properties": {
+          "actionId": {
+            "type": "string",
+            "title": "Actionid"
+          },
+          "actionType": {
+            "type": "string",
+            "title": "Actiontype"
+          },
+          "actionDescription": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Actiondescription"
+          },
+          "blockingType": {
+            "$ref": "#/components/schemas/BlockingType"
+          },
+          "actionParameters": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/components/schemas/ActionParameter"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Actionparameters"
+          }
+        },
+        "type": "object",
+        "required": [
+          "actionId",
+          "actionType",
+          "blockingType"
+        ],
+        "title": "Action"
+      },
+      "ActionParameter": {
+        "properties": {
+          "key": {
+            "type": "string",
+            "title": "Key"
+          },
+          "value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "integer"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "string",
+                "format": "date-time"
+              }
+            ],
+            "title": "Value"
+          }
+        },
+        "type": "object",
+        "required": [
+          "key",
+          "value"
+        ],
+        "title": "ActionParameter"
+      },
+      "BlockingType": {
+        "type": "string",
+        "enum": [
+          "NONE",
+          "SOFT",
+          "HARD"
+        ],
+        "title": "BlockingType"
+      },
+      "ControlPoint": {
+        "properties": {
+          "x": {
+            "type": "number",
+            "title": "X"
+          },
+          "y": {
+            "type": "number",
+            "title": "Y"
+          },
+          "weight": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Weight"
+          }
+        },
+        "type": "object",
+        "required": [
+          "x",
+          "y"
+        ],
+        "title": "ControlPoint"
+      },
+      "Dimension": {
+        "properties": {
+          "x": {
+            "type": "number",
+            "title": "X"
+          },
+          "y": {
+            "type": "number",
+            "title": "Y"
+          },
+          "z": {
+            "type": "number",
+            "title": "Z"
+          },
+          "weight": {
+            "type": "number",
+            "title": "Weight"
+          }
+        },
+        "type": "object",
+        "required": [
+          "x",
+          "y",
+          "z",
+          "weight"
+        ],
+        "title": "Dimension"
+      },
+      "Edge": {
+        "properties": {
+          "edgeId": {
+            "type": "string",
+            "title": "Edgeid"
+          },
+          "sequenceId": {
+            "type": "integer",
+            "title": "Sequenceid"
+          },
+          "edgeDescription": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Edgedescription"
+          },
+          "released": {
+            "type": "boolean",
+            "title": "Released"
+          },
+          "startNodeId": {
+            "type": "string",
+            "title": "Startnodeid"
+          },
+          "endNodeId": {
+            "type": "string",
+            "title": "Endnodeid"
+          },
+          "maxSpeed": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Maxspeed"
+          },
+          "maxHeight": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Maxheight"
+          },
+          "minHeight": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Minheight"
+          },
+          "orientation": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Orientation"
+          },
+          "orientationType": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Orientationtype"
+          },
+          "direction": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Direction"
+          },
+          "rotationAllowed": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Rotationallowed"
+          },
+          "maxRotationSpeed": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Maxrotationspeed"
+          },
+          "length": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Length"
+          },
+          "trajectory": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Trajectory"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "actions": {
+            "items": {
+              "$ref": "#/components/schemas/Action"
+            },
+            "type": "array",
+            "title": "Actions"
+          }
+        },
+        "type": "object",
+        "required": [
+          "edgeId",
+          "sequenceId",
+          "released",
+          "startNodeId",
+          "endNodeId",
+          "actions"
+        ],
+        "title": "Edge"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "NewOrderInfo": {
+        "properties": {
+          "orderId": {
+            "type": "string",
+            "title": "Orderid"
+          },
+          "sourceId": {
+            "type": "string",
+            "title": "Sourceid"
+          },
+          "sinkId": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sinkid"
+          },
+          "sourceHandover": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sourcehandover"
+          },
+          "sinkHandover": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Sinkhandover"
+          },
+          "publishTime": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Publishtime"
+          },
+          "startTime": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Starttime"
+          },
+          "dueTime": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Duetime"
+          },
+          "dimension": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Dimension"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "itemSkuId": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Itemskuid"
+          },
+          "layoutId": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Layoutid"
+          },
+          "pickupTime": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Pickuptime"
+          },
+          "dropoffTime": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Dropofftime"
+          },
+          "priority": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Priority"
+          },
+          "amrIds": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Amrids"
+          },
+          "status": {
+            "$ref": "#/components/schemas/OrderStatus"
+          }
+        },
+        "type": "object",
+        "required": [
+          "orderId",
+          "sourceId",
+          "status"
+        ],
+        "title": "NewOrderInfo"
+      },
+      "Node": {
+        "properties": {
+          "nodeId": {
+            "type": "string",
+            "title": "Nodeid"
+          },
+          "sequenceId": {
+            "type": "integer",
+            "title": "Sequenceid"
+          },
+          "nodeDescription": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Nodedescription"
+          },
+          "released": {
+            "type": "boolean",
+            "title": "Released"
+          },
+          "nodePosition": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/NodePosition"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "actions": {
+            "items": {
+              "$ref": "#/components/schemas/Action"
+            },
+            "type": "array",
+            "title": "Actions"
+          }
+        },
+        "type": "object",
+        "required": [
+          "nodeId",
+          "sequenceId",
+          "released",
+          "actions"
+        ],
+        "title": "Node"
+      },
+      "NodePosition": {
+        "properties": {
+          "x": {
+            "type": "number",
+            "title": "X"
+          },
+          "y": {
+            "type": "number",
+            "title": "Y"
+          },
+          "theta": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Theta"
+          },
+          "mapId": {
+            "type": "string",
+            "title": "Mapid"
+          }
+        },
+        "type": "object",
+        "required": [
+          "x",
+          "y",
+          "mapId"
+        ],
+        "title": "NodePosition"
+      },
+      "Order": {
+        "properties": {
+          "orderId": {
+            "type": "string",
+            "title": "Orderid"
+          },
+          "orderUpdateId": {
+            "type": "integer",
+            "title": "Orderupdateid"
+          },
+          "zoneSetId": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Zonesetid"
+          },
+          "nodes": {
+            "items": {
+              "$ref": "#/components/schemas/Node"
+            },
+            "type": "array",
+            "title": "Nodes"
+          },
+          "edges": {
+            "items": {
+              "$ref": "#/components/schemas/Edge"
+            },
+            "type": "array",
+            "title": "Edges"
+          }
+        },
+        "type": "object",
+        "required": [
+          "orderId",
+          "orderUpdateId",
+          "nodes",
+          "edges"
+        ],
+        "title": "Order"
+      },
+      "OrderInfoRequest": {
+        "properties": {
+          "orderIds": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Orderids"
+          }
+        },
+        "type": "object",
+        "required": [
+          "orderIds"
+        ],
+        "title": "OrderInfoRequest"
+      },
+      "OrderStatus": {
+        "type": "string",
+        "enum": [
+          "NEW",
+          "PLANNED",
+          "STARTED",
+          "PICKUP",
+          "DROPOFF",
+          "FINISHED"
+        ],
+        "title": "OrderStatus"
+      },
+      "OrderUpdateRequest": {
+        "properties": {
+          "amrId": {
+            "type": "string",
+            "title": "Amrid"
+          },
+          "orderStatus": {
+            "$ref": "#/components/schemas/OrderStatus"
+          },
+          "orderId": {
+            "type": "string",
+            "title": "Orderid"
+          },
+          "estimatedStartTime": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Estimatedstarttime"
+          },
+          "estimatedEndTime": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Estimatedendtime"
+          }
+        },
+        "type": "object",
+        "required": [
+          "amrId",
+          "orderStatus",
+          "orderId"
+        ],
+        "title": "OrderUpdateRequest"
+      },
+      "RepositionOrder": {
+        "properties": {
+          "amrId": {
+            "type": "string",
+            "title": "Amrid"
+          },
+          "order": {
+            "$ref": "#/components/schemas/Order"
+          }
+        },
+        "type": "object",
+        "required": [
+          "amrId",
+          "order"
+        ],
+        "title": "RepositionOrder"
+      },
+      "SetSKURequest": {
+        "properties": {
+          "skuId": {
+            "type": "string",
+            "title": "Skuid"
+          },
+          "orderId": {
+            "type": "string",
+            "title": "Orderid"
+          }
+        },
+        "type": "object",
+        "required": [
+          "skuId",
+          "orderId"
+        ],
+        "title": "SetSKURequest"
+      },
+      "StationInfoRequest": {
+        "properties": {
+          "orderId": {
+            "type": "string",
+            "title": "Orderid"
+          }
+        },
+        "type": "object",
+        "required": [
+          "orderId"
+        ],
+        "title": "StationInfoRequest"
+      },
+      "Trajectory": {
+        "properties": {
+          "degree": {
+            "type": "integer",
+            "title": "Degree"
+          },
+          "knotVector": {
+            "items": {
+              "type": "number"
+            },
+            "type": "array",
+            "title": "Knotvector"
+          },
+          "controlPoints": {
+            "items": {
+              "$ref": "#/components/schemas/ControlPoint"
+            },
+            "type": "array",
+            "title": "Controlpoints"
+          }
+        },
+        "type": "object",
+        "required": [
+          "degree",
+          "knotVector",
+          "controlPoints"
+        ],
+        "title": "Trajectory"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      }
+    }
+  }
+}

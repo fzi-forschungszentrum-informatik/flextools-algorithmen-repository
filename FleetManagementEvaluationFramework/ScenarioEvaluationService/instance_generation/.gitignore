@@ -1,0 +1,41 @@
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Tool caches / test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# IDE / OS
+.idea/
+.vscode/
+.DB_Store
+Thumbs.db
+
+# Runtime artifacts
+*.log
+
+# scenariospecific output folders
+endpoints
+graph_properties
+lif_files
+system_state_files
+order_files

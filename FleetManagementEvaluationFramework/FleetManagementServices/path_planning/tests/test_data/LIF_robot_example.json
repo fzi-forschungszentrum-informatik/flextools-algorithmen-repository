@@ -1,0 +1,161 @@
+{
+    "metaInformation": {
+        "projectIdentification": "LIF Evaluation Test",
+        "exportTimestamp": "2024-11-07 12:58:51.426221",
+        "lifVersion": "1.0.0",
+        "creator": "LIFGenerator"
+    },
+    "layouts": [
+        {
+            "layoutId": "map1",
+            "nodes": [
+                {
+                    "nodeId": "N_0_0",
+                    "nodeName": "",
+                    "mapId": "map1",
+                    "nodePosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "robot",
+                            "theta": 0.0,
+                            "actions": []
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N_0_1",
+                    "nodeName": "",
+                    "mapId": "map1",
+                    "nodePosition": {
+                        "x": 5.0,
+                        "y": 0.0
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "robot",
+                            "theta": 0.0,
+                            "actions": []
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N_1_0",
+                    "nodeName": "",
+                    "mapId": "map1",
+                    "nodePosition": {
+                        "x": 0.0,
+                        "y": 5.0
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "robot",
+                            "theta": 0.0,
+                            "actions": []
+                        }
+                    ]
+                },
+                {
+                    "nodeId": "N_1_1",
+                    "nodeName": "",
+                    "mapId": "map1",
+                    "nodePosition": {
+                        "x": 5.0,
+                        "y": 5.0
+                    },
+                    "vehicleTypeNodeProperties": [
+                        {
+                            "vehicleTypeId": "robot",
+                            "theta": 0.0,
+                            "actions": []
+                        }
+                    ]
+                }
+            ],
+            "edges": [
+                {
+                    "edgeId": "E-0_0-0_1",
+                    "edgeName": "",
+                    "startNodeId": "N_0_0",
+                    "endNodeId": "N_0_1",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "robot",
+                            "rotationAllowed": true,
+                            "maxSpeed": 1.0,
+                            "actions": []
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E-0_0-1_0",
+                    "edgeName": "",
+                    "startNodeId": "N_0_0",
+                    "endNodeId": "N_1_0",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "robot",
+                            "rotationAllowed": true,
+                            "maxSpeed": 1.0,
+                            "actions": []
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E-1_0-1_1",
+                    "edgeName": "",
+                    "startNodeId": "N_1_0",
+                    "endNodeId": "N_1_1",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "robot",
+                            "rotationAllowed": true,
+                            "maxSpeed": 1.0,
+                            "actions": []
+                        }
+                    ]
+                },
+                {
+                    "edgeId": "E-0_1-1_1",
+                    "edgeName": "",
+                    "startNodeId": "N_0_1",
+                    "endNodeId": "N_1_1",
+                    "vehicleTypeEdgeProperties": [
+                        {
+                            "vehicleTypeId": "robot",
+                            "rotationAllowed": true,
+                            "maxSpeed": 1.0,
+                            "actions": []
+                        }
+                    ]
+                }
+            ],
+            "stations": [
+                {
+                    "stationId": "S1",
+                    "interactionNodeIds": [
+                        "N_0_1"
+                    ],
+                    "stationName": "Pickup-Station",
+                    "stationPosition": {
+                        "x": 5,
+                        "y": 0
+                    }
+                },
+                {
+                    "stationId": "S2",
+                    "interactionNodeIds": [
+                        "N_1_1"
+                    ],
+                    "stationName": "Dropoff-Station",
+                    "stationPosition": {
+                        "x": 5,
+                        "y": 5
+                    }
+                }
+            ]
+        }
+    ]
+}

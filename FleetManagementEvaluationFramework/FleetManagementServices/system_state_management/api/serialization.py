@@ -1,0 +1,10 @@
+import datetime
+
+
+def serialize_json(obj):
+    if isinstance(obj, datetime.datetime):
+        return str(obj)
+    elif isinstance(obj, set):
+        return list(obj)
+    else:
+        return obj.dict(exclude_none=True)

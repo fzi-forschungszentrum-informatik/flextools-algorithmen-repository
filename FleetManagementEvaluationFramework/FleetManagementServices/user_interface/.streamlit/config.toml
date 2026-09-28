@@ -1,0 +1,9 @@
+[server]
+port=3010
+runOnSave = true
+#[browser]
+#serverAddress ="0.0.0.0"
+[client]
+toolbarMode = "minimal"
+[theme]
+base = "light"

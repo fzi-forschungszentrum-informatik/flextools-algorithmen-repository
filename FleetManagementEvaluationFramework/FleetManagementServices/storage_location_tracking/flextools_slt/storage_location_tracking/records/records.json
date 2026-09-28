@@ -1,0 +1,86 @@
+{
+    "records": [
+        {
+            "itemNumber": 59,
+            "locationName": "01",
+            "stored_at": "2024-01-02T00:01:06", 
+            "retrieved_at": "2024-01-02T00:10:06", 
+            "completly_retrieved": true
+        },
+        {
+            "itemNumber": 68,
+            "locationName": "02",
+            "stored_at": "2024-01-02T00:01:06",
+            "completly_retrieved": false
+        },
+        {
+            "itemNumber": 20,
+            "locationName": "03",
+            "stored_at": "2024-01-02T00:01:06",
+            "completly_retrieved": false
+        },
+        {
+            "itemNumber": 59,
+            "locationName": "01",
+            "stored_at": "2024-01-02T00:15:06",
+            "retrieved_at": "2024-01-02T00:45:06",
+            "completly_retrieved": true
+        },
+        {
+            "itemNumber": 68,
+            "locationName": "02",
+            "stored_at": "2024-01-02T00:35:06",
+            "retrieved_at": "2024-01-02T01:05:06",
+            "completly_retrieved": true
+        },
+        {
+            "itemNumber": 20,
+            "locationName": "03",
+            "stored_at": "2024-01-02T00:35:06",
+            "retrieved_at": "2024-01-02T01:05:06",
+            "completly_retrieved": true
+        },
+        {
+            "itemNumber": 59,
+            "locationName": "01",
+            "stored_at": "2024-01-02T01:00:06",
+            "retrieved_at": "2024-01-02T01:30:06",
+            "completly_retrieved": true
+        },
+        {
+            "itemNumber": 68,
+            "locationName": "02",
+            "stored_at": "2024-01-02T01:10:06",
+            "retrieved_at": "2024-01-02T01:40:06",
+            "completly_retrieved": true
+        },
+        {
+            "itemNumber": 20,
+            "locationName": "03",
+            "stored_at": "2024-01-02T01:10:06",
+            "retrieved_at": "2024-01-02T01:40:06",
+            "completly_retrieved": true
+        },
+        {
+            "itemNumber": 59,
+            "locationName": "01",
+            "stored_at": "2024-01-02T01:40:06",
+            "retrieved_at": "2024-01-02T02:10:06",
+            "completly_retrieved": true
+        },
+        {
+            "itemNumber": 68,
+            "locationName": "02",
+            "stored_at": "2024-01-02T01:50:06",
+            "retrieved_at": "2024-01-02T02:20:06",
+            "completly_retrieved": true
+        },
+        {
+            "itemNumber": 20,
+            "locationName": "03",
+            "stored_at": "2024-01-02T01:50:06",
+            "retrieved_at": "2024-01-02T02:20:06",
+            "completly_retrieved": true
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_COMMIT_BRANCH == "development"'
+    - when: never
+
+stages:
+  - build-test
+  - testing
+  - build-release
+
+build-test:
+  stage: build-test
+  image: docker:26.1.4
+  before_script:
+    - docker login -u ${CI_REGISTRY_USER} -p ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY}
+  script:
+    - docker build --pull --rm -t ${CI_REGISTRY_IMAGE}:${CI_COMMIT_REF_SLUG}_test .
+    - docker push ${CI_REGISTRY_IMAGE}:${CI_COMMIT_REF_SLUG}_test
+
+
+testing:
+  stage: testing
+  image: python:3.11.9
+  services:
+    - name: ${CI_REGISTRY_IMAGE}:${CI_COMMIT_REF_SLUG}_test
+      alias: taskassignment_url
+  variables:
+    FF_NETWORK_PER_BUILD: 1  #allows cross-service communication, since e.g. routing service needs to communicate to traveltime service
+    HOST: "0.0.0.0"
+    TASKASSIGNMENT_URL: http://taskassignment_url:3000/
+  before_script:
+    - pip install -r requirements.txt
+  script:
+    - python -m pytest
+
+build-release:
+  stage: build-release
+  image: docker:26.1.4
+  before_script:
+    - docker login -u ${CI_REGISTRY_USER} -p ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY}
+  script:
+    - docker build --pull --rm -t ${CI_REGISTRY_IMAGE}:${CI_COMMIT_REF_SLUG} .
+    - docker push ${CI_REGISTRY_IMAGE}:${CI_COMMIT_REF_SLUG}

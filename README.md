@@ -136,6 +136,16 @@ This repository is part of the FlexTools project and is associated with research
 planning for AMRs in intralogistics. If you use this repository in academic work,
 cite the related publication and archived release if available.
 
+```bibtex
+@misc{flextoolsAlgorithmRepository2026,
+author = {Knierim, Justus and Disselnmeyer, Max and Bischoff, Janik and Ringel, Jonas},
+title = {FlexTools Fleet Management Framework and Planning Algorithms},
+year = {2026},
+publisher = {GitHub},
+journal = {GitHub Repository},
+howpublished = {\url{https://github.com/fzi-forschungszentrum-informatik/flextools-algorithmen-repository}},
+}
+```
 
 ## 📄 License:
 This repository is licensed under the MIT License. See [LICENSE](LICENSE).

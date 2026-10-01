@@ -156,7 +156,7 @@ Justus Knierim <knierim@fzi.de>, Jonas Ringel
 Justus Knierim <knierim@fzi.de>
 
 ## Acknowledgements:
-![plot](images_readme/flextools_förder_logo.jpg)
+![plot](../images_readme/flextools_förder_logo.jpg)
 
 The research project "FlexTools - The Modular Toolbox for Flexible Robotics for Small and Medium-Sized
 Automotive Suppliers" is funded by the Federal Ministry for Economic Affairs and Energy of the Federal Republic
